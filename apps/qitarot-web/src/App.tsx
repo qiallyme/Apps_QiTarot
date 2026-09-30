@@ -538,7 +538,7 @@ export function App() {
             <strong className={`status-text-${apiStatus}`}>{apiStatus.toUpperCase()}</strong>
           </div>
           <div className="system-detail-box">
-            <p><strong>API Endpoint:</strong> <code>api.tarot.qially.com</code></p>
+            <p><strong>API Endpoint:</strong> <code>{(import.meta.env.VITE_QITAROT_API_BASE_URL || 'tarot.askcody.me').replace(/^https?:\/\//, '')}</code></p>
             <p><strong>App Slug:</strong> <code>qitarot</code></p>
             <p><strong>Loaded Templates:</strong> {spreads.length} spreads, {cardCatalog.length} catalog cards</p>
           </div>

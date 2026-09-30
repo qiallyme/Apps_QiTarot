@@ -3,8 +3,8 @@
 QiTarot is a QiLabs tarot reading tracker with a React/Vite frontend, a Cloudflare Worker API, and Supabase persistence.
 
 ```txt
-Browser at tarot.qially.com
-  -> qitarot-api at api.tarot.qially.com
+Browser at tarot.askcody.me
+  -> qitarot-api at tarot.askcody.me (or api.tarot.askcody.me)
   -> Supabase REST and Storage
 ```
 

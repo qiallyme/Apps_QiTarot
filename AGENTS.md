@@ -13,8 +13,8 @@ Keep `C:\QiLabs\60_QiApps\65_QiTarot` aligned to the final QiTarot app architect
 - Worker/API folder: `apps/qitarot-api`
 - Cloudflare Pages project: `qitarot-web`
 - Cloudflare Worker project: `qitarot-api`
-- Frontend public domain: `tarot.qially.com`
-- API domain: `api.tarot.qially.com`
+- Frontend public domain: `tarot.askcody.me`
+- API domain: `tarot.askcody.me` (or `api.tarot.askcody.me`)
 - API route prefix: `/v1/qitarot`
 - Supabase table prefix: `qitarot_`
 - Supabase storage bucket: `qitarot-reading-photos`

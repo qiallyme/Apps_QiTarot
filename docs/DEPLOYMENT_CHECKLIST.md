@@ -17,10 +17,10 @@
 - [ ] Root directory: `apps/qitarot-api`.
 - [ ] Deploy command: `npx wrangler deploy`.
 - [ ] Entry file: `src/index.ts`.
-- [ ] Custom domain: `api.tarot.qially.com`.
+- [ ] Custom domain: `tarot.askcody.me` (or `api.tarot.askcody.me`).
 - [ ] Set secrets: `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, `OPENAI_API_KEY`.
-- [ ] Set vars: `CORS_ORIGIN=https://tarot.qially.com`, `QITAROT_APP_SLUG=qitarot`.
-- [ ] Hit `https://api.tarot.qially.com/v1/qitarot/health`.
+- [ ] Set vars: `CORS_ORIGIN=https://tarot.askcody.me`, `QITAROT_APP_SLUG=qitarot`.
+- [ ] Hit `https://tarot.askcody.me/v1/qitarot/health`.
 
 ## Cloudflare Pages
 
@@ -28,8 +28,8 @@
 - [ ] Root directory: `apps/qitarot-web`.
 - [ ] Build command: `npm run build`.
 - [ ] Output directory: `dist`.
-- [ ] Custom domain: `tarot.qially.com`.
-- [ ] Set `VITE_QITAROT_API_BASE_URL=https://api.tarot.qially.com`.
+- [ ] Custom domain: `tarot.askcody.me`.
+- [ ] Set `VITE_QITAROT_API_BASE_URL=https://tarot.askcody.me`.
 - [ ] Set `VITE_QITAROT_APP_SLUG=qitarot`.
 
 ## Production Sanity

@@ -32,7 +32,7 @@ VITE_QITAROT_APP_SLUG=qitarot
 Production Pages env:
 
 ```bash
-VITE_QITAROT_API_BASE_URL=https://api.tarot.qially.com
+VITE_QITAROT_API_BASE_URL=https://tarot.askcody.me
 VITE_QITAROT_APP_SLUG=qitarot
 ```
 
@@ -59,7 +59,7 @@ OPENAI_API_KEY=
 Production Worker vars:
 
 ```bash
-CORS_ORIGIN=https://tarot.qially.com
+CORS_ORIGIN=https://tarot.askcody.me
 QITAROT_APP_SLUG=qitarot
 ```
 
